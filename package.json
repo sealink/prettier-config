@@ -4,7 +4,7 @@
   "description": "SeaLink Standard Prettier Configuration",
   "main": "prettier.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "author": "SeaLink Travel Group",
   "license": "ISC"
