@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "SeaLink Travel Group",
   "license": "ISC"
 }
