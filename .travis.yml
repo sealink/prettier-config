@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '12'
+deploy:
+  provider: npm
+  email: support@travellink.com.au
+  api_key:
+    secure: n0qkkT+nu8XhPKYKzKZCbz4dGa4Ms5UCTak3W/u05wiCDCd3aFEz+tXNYNW7wt2qnrhCtugr6rOYTUej7ghSIoTBgW5T3U8JVWjyutREAHJ5XEJt20td+TeiViFvPxcUZxd24cMtISxn2KXbhF9ovDjC3wIcNq36eyQaC3f6KyFkING65sojqZ2xA6G0Q9+tosaQxq4w0fs8cOVKdOj2W49rFupayk9URBYSCSNfRaJpeQRBNJGZVuHpt2v5YeT3JIBJfzgw6IWZwV4KenO3O+njn3+V9OqrJ1KO8xFxxGyisSn52ZSiFySnf+zA4z/oPAtefK/B4X7QAVFtmHHjeKrP97ri/04Bf5HckQlic+v9enbuFsk+twq5IcrzqAqYZdlBQMbO+DilbLwYIqILG9P6sr3Xv6X5zC3aSwhMGnjb+61SrFpoT0YDxx0A67T2Uk79XqJVO0ecgq1GHTsx6sQlvKFulXCAG4Q4uSFB/OqlOnsUY8dI05zdn+TYb3WQsmwcfJBMyfslqA/hYyl4BybSuj9VnvfqNtZUgtTw6ODVmf/4Wixv69dr9Q7bz1vbJ2iDcmRLxoApVNMx9a1mlJLowxPQXIDovPQ+C4cemTkgMMXucL+1/S5uwdWSVd481JbYTKiSp4c1fs2aIBejzHNQnoEJ4h+rjBjej7JzzOI=
+  on:
+    tags: true
+    repo: sealink/prettier-config
